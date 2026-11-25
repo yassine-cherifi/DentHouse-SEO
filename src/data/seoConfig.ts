@@ -1,7 +1,7 @@
 import { FAQS, PATIENT_REVIEWS } from './dentHouseData';
 
 export const SITE_URL = 'https://denthousemarrakech.com';
-export const DEFAULT_OG_IMAGE = `${SITE_URL}/images/hero_denthouse_consultation_1791832441772.jpg`;
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/assets/aistudio/WhatsApp_Image_2026-11-13_at_1.59.18_PM_-_Copy_de5bb83c.jpeg`;
 export const DEFAULT_ROBOTS = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 
 /**
@@ -79,7 +79,7 @@ export const CLINIC_DENTIST_ENTITY = {
   medicalSpecialty: 'CosmeticDentistry',
   areaServed: ['GB', 'IE', 'MA', 'FR', 'EU'],
   logo: `${SITE_URL}/images/logo.png`,
-  image: DEFAULT_OG_IMAGE,
+  image: `${SITE_URL}/images/hero_denthouse_consultation_1791832441772.jpg`,
   founder: { '@id': `${SITE_URL}/#dr-mouad` },
   employee: { '@id': `${SITE_URL}/#dr-mouad` },
   ...(CLINIC_SAME_AS.length > 0 ? { sameAs: CLINIC_SAME_AS } : {}),
